@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+  
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="presentation.css" />
+    
+    <title>Presentation</title>
+    <nav>
+      <button id="btn-1"><strong>Presentation</strong></button>
+      <button id="btn-2"><strong>BTS</strong></button>
+      <button id="btn-6"><strong>Projet</strong></button>
+      <button id="btn-3"><strong>E4</strong></button>
+      <button id="btn-4"><strong>E5</strong></button>
+      <button id="btn-5"><strong>Veille</strong></button>
+    </nav>
+    <h2><strong>Presentation</strong></h2>
+    <div class="container">
+      <img id="img-profil" src="xavatario.png" alt="presentation" />
+
+      <br />
+      <h3>
+        Miled Yassine <br />
+        <br />
+        Étudiant en BTS Services Informatiques aux Organisations (SIO) au lycée
+        Turgot, passionné par l'informatique et les technologies. Je combine des
+        compétences techniques en programmation (PHP, HTML, CSS, MySQL, GitHub,
+        JavaScript, React et Next.js) et des aptitudes professionnelles développées lors
+        d’expériences dans la gestion et la logistique. Polyvalent et autonome,
+        je suis motivé par le travail en équipe et la gestion de projets,
+        toujours prêt à relever de nouveaux défis dans le domaine de
+        l’informatique et des réseaux.
+
+        <br />
+
+        <br />
+        <p>Me Contacter :</p>
+
+        <a
+        href="https://www.linkedin.com/in/yassine-miled-1136852a3/"
+        target="_blank"
+      >
+          <i class="fab fa-linkedin"></i> LinkedIn <br />
+        </a>
+        <a href="https://github.com/YassineMiled" target="_blank"
+          ><i class="fab fa-github"></i> Github <br
+        /></a>
+
+        <a href="mailto:yassinemiled34190@gmail.com">
+          <i class="fas fa-envelope"></i> Gmail
+        </a>
+      </h3>
+    </div>
+    <button id="btn-CV" onclick="telechargerCV()">Consulter mon CV</button>
+  </head>
+   <br> <br> <br> <br> <br>
+  <body id = "body">
+    <script src="script.js"></script>
+    <hr>
+    <!-- Footer avec formulaire de contact -->
+<footer style="background-color: #1b1b1b; color: #fff; padding: 20px; text-align: center;">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="footer.js"></script>
+  
+  <h3>Me Contacter</h3>
+  <form id="contact-form" style="max-width: 400px; margin: 0 auto;">
+    <input type="text" id="name" placeholder="Votre nom" required style="width: 100%; margin-bottom: 10px; padding: 10px;">
+    <input type="email" id="email" placeholder="Votre email" required style="width: 100%; margin-bottom: 10px; padding: 10px;">
+    <textarea id="message" placeholder="Votre message" required style="width: 100%; margin-bottom: 10px; padding: 10px;"></textarea>
+    <button type="submit" style="background-color: rgb(19, 19, 19); color: white; padding: 10px 20px; border: none; cursor: pointer;">Envoyer</button>
+    <p id="status-message" style="margin-top: 10px; color: #fff;"></p>
+  </form>
+</footer>
+
+
+  </body>
+</html>

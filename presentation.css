@@ -1,0 +1,82 @@
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+h3 {
+  color: rgb(219, 219, 219);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+
+.mousemove {
+  height: 10px;
+  width: 10px;
+  border: 2px solid pink;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+a {
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+}
+
+
+
+.container {
+  text-align: left 50px;
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  margin-right: 200px;
+  gap: 150px; /* Espace entre les éléments */
+}
+#btn-CV {
+  display: block; /* Permet de manipuler l'alignement */
+  margin-left: auto; /* Pousse le bouton vers la droite */
+  margin-right: 150px; /* Assure qu'il est aligné à droite */
+  width: fit-content; /* Ajuste la taille du bouton à son contenu */
+}
+
+
+
+
+#contact-form {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+
+.container img {
+  width: 80%;
+  float: left;
+  margin-top: 150px;
+  margin-left: 200px;
+  height: auto; /* Conserve la hauteur de l'image */
+  border-width: 15px; /* Largeur de la bordure */
+  border-color: rgb(15, 15, 15); /* Couleur de la bordure */
+  border-style: solid; /* Style de la bordure (peut être 'solid', 'dashed', 'dotted', etc.) */
+}
+
+
+

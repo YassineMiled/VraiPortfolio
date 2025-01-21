@@ -1,0 +1,49 @@
+.AidesContainer img {
+
+  margin-left: 70px;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  border-width: 5px; /* Largeur de la bordure */
+  border-color: rgb(37, 37, 37); /* Couleur de la bordure */
+  border-style: solid; /* Style de la bordure (peut être 'solid', 'dashed', 'dotted', etc.) */
+}
+
+
+BODY {
+  margin-bottom: 140px;
+
+
+}
+.AidesContainer {
+ 
+  text-align: left 60px;
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  margin-right: 200px;
+  gap: 50px; /* Espace entre les éléments */
+}
+
+
+  .icon-small {
+    font-size: 16px;
+  }
+
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+
+#freejobs {
+  margin-top: 90px; /* Ajustez la valeur selon vos besoins */
+}
+
+
+
+a {
+  font-family: "Satoshi-Variable", sans-serif;
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+}

@@ -1,0 +1,96 @@
+body {
+  
+  background-color: rgb(19, 19, 19);
+  background-image:url(product-showcase-with-spotlight-black-studio-room-background-use-as-montage-product-display.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: "Satoshi-Variable", sans-serif;
+
+}
+
+button {
+  background-color: white;
+  border-width: 1px;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(90deg, #141414, #000000);
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+button:hover {
+  transform: scale(1.1);
+  background-color: rgb(20, 20, 20);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: scale(0.9);
+  background-color: rgb(32, 32, 32);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:focus {
+  animation: pulse 1s infinite;
+  outline: none;
+}
+
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+h3 {
+  color: rgb(197, 197, 197);
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+h4 {
+  color: rgb(197, 197, 197);
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+p {
+  color: rgb(197, 197, 197);
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+li {
+  color: rgb(197, 197, 197);
+  text-align: center;
+  margin-top: 100px;
+  font-family: "Satoshi-Variable", sans-serif;
+}
+
+hr {
+  margin-bottom:  0px;
+  height: 5px;  /* Augmente l'épaisseur de la ligne */
+  background-color: rgb(63, 63, 63);  /* Définit la couleur de la ligne */
+  border: none;  /* Supprime toute bordure par défaut */
+}
+

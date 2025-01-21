@@ -1,0 +1,29 @@
+.container {
+  text-align: left 50px;
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  margin-right: 200px;
+  gap: 150px; /* Espace entre les éléments */
+}
+
+.container img {
+  width: 30%;
+  float: left;
+  margin-top: 150px;
+  margin-left: 200px;
+  height: auto; /* Conserve la hauteur de l'image */
+}
+button#SISR {
+  transition: transform 0.5s;
+  background-color: rgb(46, 46, 46);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border-width: 3px;
+  border-color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  margin-left: 680px;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
