@@ -56,7 +56,7 @@ function telechargerRapportsSio2() {
 
 function telechargerTableau() {
   const lien = document.createElement("a");
-  lien.href = "TableauSyntheseE4YassineMiled.pdf"; // Remplacez par le chemin de votre fichier CV
+  lien.href = "TableauSyntheseE4.pdf"; // Remplacez par le chemin de votre fichier CV
   lien.download = "TableauSyntheseE4.xlsx "; // Nom du fichier lors du téléchargement
   lien.click();
 }
